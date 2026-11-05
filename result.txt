@@ -1,0 +1,59 @@
+Data seed : 2026
+Pivot seed: 12026
+Repeat : 400
+Timer : clock() CPU time
+Memory : estimated (temporary array + recursion/variable model)
+
+Data Size : 1000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                  8698     0.070000            4544
+Quick (First)              11374     0.072500             996
+Quick (Random)             10655     0.077500             996
+Quick (Median3)            11120     0.067500             816
+Verification : PASS
+
+Data Size : 2000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                 19426     0.202500            8584
+Quick (First)              23410     0.160000             996
+Quick (Random)             24554     0.187500            1176
+Quick (Median3)            25720     0.172500             888
+Verification : PASS
+
+Data Size : 4000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                 42847     0.392500           16624
+Quick (First)              54516     0.350000            1140
+Quick (Random)             52517     0.390000            1104
+Quick (Median3)            53485     0.365000             924
+Verification : PASS
+
+Data Size : 8000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                 93635     0.872500           32664
+Quick (First)             121723     0.845000            1320
+Quick (Random)            125591     0.870000            1284
+Quick (Median3)           114971     0.787500             996
+Verification : PASS
+
+Data Size : 16000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                203347     1.947500           64704
+Quick (First)             262515     1.690000            1284
+Quick (Random)            255881     1.810000            1248
+Quick (Median3)           261716     1.940000            1068
+Verification : PASS
+
+Data Size : 20000
+Algorithm            Comparisons     Time(ms)   Memory(Bytes)
+--------------------------------------------------------------
+Merge Sort                260949     2.330000           80744
+Quick (First)             363224     2.325000            1500
+Quick (Random)            361327     2.537500            1428
+Quick (Median3)           333185     2.197500            1176
+Verification : PASS
